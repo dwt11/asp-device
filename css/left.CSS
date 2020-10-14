@@ -1,0 +1,13 @@
+body  {  margin:0px; font:9pt ËÎÌå; FONT-SIZE: 9pt;text-decoration: none;
+}
+table  { border:0px; }
+td  { font:normal 12px ËÎÌå; }
+img  { vertical-align:bottom; border:0px; }
+a  { font:normal 12px ËÎÌå;¡¡color:#000000; text-decoration: none;}
+a:link {color:#000000;text-decoration: none;}
+a:hover  { color:#000000;}
+.sec_menu  { border-left:1px solid white; border-right:1px solid white; border-bottom:1px solid white; overflow:hidden; background:#D4ECF5; }
+.menu_title  { }
+.menu_title span  { position:relative; top:2px; left:8px; color:#0F42A6; font-weight:bold; }
+.menu_title2  { }
+.menu_title2 span  { position:relative; top:2px; left:8px; color:#cc0000; font-weight:bold; }

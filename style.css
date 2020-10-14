@@ -1,0 +1,115 @@
+/* 网站链接总的CSS定义:可定义内容为链接字体颜色、样式等 */
+a { } /* 链接无下划线,有为underline 无为none*/ 
+a:link {color: #000000;} /* 未访问的链接 */
+a:visited {color: #000000;} /* 已访问的链接 */
+a:hover {color: #ff6600;} /* 鼠标在链接上 */ 
+a:active {color: #000000;} /* 点击激活链接 */
+
+/* 栏目标题文字链接的CSS定义 */
+a.Class:link {color: #ffffff;}
+a.Class:visited {color: #ffffff;}
+a.Class:hover {color: #449AE8;}
+a.Class:active {color: #ffffff;}
+
+BODY
+{
+	FONT-FAMILY: "宋体";
+	FONT-SIZE: 12pt;
+	
+	line-height: 150%;
+	background:#ffffff;
+/*	SCROLLBAR-FACE-COLOR: #2B73F1;
+	SCROLLBAR-HIGHLIGHT-COLOR: #0650D2;
+	SCROLLBAR-SHADOW-COLOR: #449AE8;
+	SCROLLBAR-3DLIGHT-COLOR: #449AE8;
+	SCROLLBAR-ARROW-COLOR: #02338A;
+	SCROLLBAR-TRACK-COLOR: #0650D2;
+	SCROLLBAR-DARKSHADOW-COLOR: #0650D2;
+*/	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+TD
+{
+FONT-FAMILY:宋体;FONT-SIZE: 10pt;line-height: 180%; 
+}
+
+Input
+{
+	FONT-SIZE: 12px;
+	HEIGHT: 20px;
+}
+Button
+{
+	FONT-SIZE: 9pt;
+	HEIGHT: 20px; 
+}
+Select
+{
+	FONT-SIZE: 9pt;
+	HEIGHT: 20px;
+}
+.title
+{
+	background:#449AE8;
+	color: #ffffff;
+	font-weight: normal;
+}
+.border
+{
+	border: 1px solid #449AE8;
+}
+.tdbg{
+	background:#f0f0f0;
+	line-height: 120%;
+       
+.tdbg2{
+	background:#E0EEF5;
+	line-height: 120%;
+}
+.Glow /*　标题文字发光效果定义，白字深蓝底 */
+{
+filter: Glow(Color=#0F42A6, Strength=1);Dropshadow(Color=#0F42A6, OffX=1, OffY=1,); WIDTH: 100%; COLOR: #ffffff; LINE-HEIGHT: 20px
+}
+.topbg /*　标题背景单元格定义，白字深蓝底 */
+{
+	background:#0650D2;color:#FFFFFF;
+/*	font-weight:bold;text-align: centen; */
+}
+.topbg2 /*	浅色背景定义，用于首页细线 */
+{
+	background:#449AE8;
+}
+.bgcolor {
+	background-color: #E1F4EE;
+}
+.aa {
+	font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana;
+	font-size: 12px;
+	background-color: white;
+	border-width: 1px;
+	border-color: #cccccc;
+	border-style: solid;
+	padding: 2px;
+	margin-top: 1px;
+	text-align:left;
+	filter: revealTrans(transition=22,duration=0.5) blendTrans(duration=0.5) Alpha(opacity=75) progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=135, Strength=4);	
+}
+.aa_highlight {
+	color: #FFFFFF;
+	font-weight:bold;
+	cursor:pointer;
+	background-color: highlight;
+}
+.aa_wait {
+	cursor: wait;
+	background-image: url("images/arrows_circle.gif");
+	background-repeat: no-repeat;
+	background-position: 98% center;	
+}
+.aa * {
+	padding: 3px;
+	text-align:left;
+}
+.jgtz_tdbg{background:#DDDDDD;FONT-SIZE: 11pt;}

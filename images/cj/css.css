@@ -1,0 +1,84 @@
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+.inputta1 {
+	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 1px solid; BORDER-LEFT: #a9a9a9 1px solid; BORDER-BOTTOM: #a9a9a9 0px solid
+}
+.inputta4 {
+	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 0px solid; BORDER-LEFT: #a9a9a9 1px solid; BORDER-BOTTOM: #a9a9a9 1px solid
+}
+A:hover {
+	COLOR: #ff0000
+}
+A.a01:link {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.a01:visited {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.a01:hover {
+	COLOR: #e6e6e6
+}
+A.a02:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.a02:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.a02:hover {
+	COLOR: #0099cc
+}
+.input1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 120%; FONT-FAMILY: "宋体"
+}
+.bgdian {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(../images/dian.gif); BACKGROUND-REPEAT: repeat-x
+}
+.blue {
+	COLOR: #333399; TEXT-DECORATION: none
+}
+.Path {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.black {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.til3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0793b6; TEXT-DECORATION: none
+}
+.til4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ee7200; TEXT-DECORATION: none
+}
+.ta {
+	LINE-HEIGHT: 150%; FONT-FAMILY: "宋体"
+}
+.f014 {
+	FONT-SIZE: 14px; FONT-FAMILY: "宋体"; TEXT-ALIGN: center
+}
+.bb {
+	FONT-WEIGHT: bold
+}
+.red {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.zl {
+	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 146%; FONT-FAMILY: "宋体"
+}
+.zl1 {
+	LINE-HEIGHT: 150%
+}
+.gray {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.til2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #a36209; FONT-FAMILY: "宋体"
+}
+.tougao {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.article_td {
+	FONT-SIZE: 14px; LINE-HEIGHT: 160%
+}

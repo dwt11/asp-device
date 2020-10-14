@@ -1,0 +1,9 @@
+TD {
+	FONT: 14px Ï¸Ã÷Ìå; CURSOR: default
+}
+.title {
+	BORDER-RIGHT: #555 1px solid;text-align:center; PADDING-RIGHT: 4px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 4px; BACKGROUND: #ccc; PADDING-BOTTOM: 4px; OVERFLOW: hidden; BORDER-LEFT: #fff 1px solid; CURSOR: hand; PADDING-TOP: 4px; BORDER-BOTTOM: #555 1px solid; WHITE-SPACE: nowrap
+}
+.cdata {
+	BACKGROUND: #fff; BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; OVERFLOW: hidden; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px solid; WHITE-SPACE: nowrap
+}

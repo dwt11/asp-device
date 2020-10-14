@@ -1,0 +1,191 @@
+*{ margin: 0; padding: 0; }
+body{ BACKGROUND: #fff; FONT: 12px/1.8 "ËÎÌå", arial, sans-serif; COLOR: #000}
+img{border:0}
+a:link,a:visited,a:hover,a:active  {text-decoration: none;}
+A:visited ,A:link {	COLOR: #0b3b8c;}
+A:hover, A:active {	color: #f60;}
+
+.clear{ clear: both; display: block; font: 0/0 sans-serif; height: 0; overflow: hidden; }
+.box960{ margin: 0px auto;width: 970px;}
+	.boxl{ float: right; width: 720px; /*751*/ }
+	.boxl_1{ float: left; width: 250px; /*751*/ }
+	.boxl_2{ float: right; width: 250px; /*751*/ }
+	
+	.boxr{ float: left; margin: 0 auto;  /*242*/ }
+	.br{ height: 3px; clear: both; display: block; font: 0/0 sans-serif; height: 0; overflow: hidden;  }
+	h1{font-size:16px;height:23px;margin-top:10px }
+	.center{ text-align:center	}
+		.left{ text-align: left; }
+		.right{ text-align: right; }
+		.left20{	MARGIN-left: 20px; }
+
+	hr{height:1px;border:0px;border-top:1px solid #dddddd;overflow:hidden;width:93%;	margin: 0px auto;}
+
+/*µ¼º½Ìõ*/
+.miniNav {
+	BACKGROUND: #f8f8f8;
+	COLOR: #a1a0a0;
+	LINE-HEIGHT: 14px;
+	BORDER-BOTTOM: #e6e6e6 1px solid;
+	HEIGHT: 22px;
+}
+.miniNav .logo{
+	float:left;
+	PADDING-TOP: 4px;
+}
+.miniNav div span{
+	float:right;
+	PADDING-TOP: 4px;
+}
+.miniNav A {
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 1px;
+	COLOR: #a1a0a0;
+	PADDING-TOP: 1px;
+}
+.miniNav A:hover {
+	BACKGROUND: #929292;
+	COLOR: #fff
+}
+
+
+	
+.menu{background:url(images/vertical.gif) repeat-x 0 -36px;height:36px;width:960px;}
+	.menuC{padding-left:24px;
+	text-align:left;
+	clear: both;
+		}
+		.menuC a{
+			 float: left;
+		}
+	.menuC a:link,.menuC a:visited,.menuC a:active{ height:36px;display:inline-block;text-align:center;color:#ffffff;font-weight:bold;font-size:14px;line-height:36px;margin-left:20px}
+	.menuC a:hover,.menuC a:active{ color: #f60;}
+	.menuC a:hover{text-decoration:none}
+	.menuC span{
+ BACKGROUND: url(images/icons.gif) no-repeat 1px -70px;
+ padding-right: 20px; 
+ float: right;	
+
+
+ 
+}
+	.menuL{background:url(images/vertical.gif) no-repeat 0 0;height:36px}
+	.menuR{background:url(images/icons.gif) no-repeat right -146px;height:36px}
+
+
+
+
+
+	/*å®?88 BOX*/
+	.brt{ height: 25px; }
+	.brc{ text-align:left;}
+	.brb{ height: 10px; }
+
+
+   /*   å®?48 BOX*/
+	.blt{ height: 25px;FONT-SIZE: 14px; COLOR: #1c2c58;	
+	border-bottom: 1px solid #d2d2d2;  margin:0 10px 6px 10px; padding-left: 20px; text-align:left; font-weight: bold; 
+	
+	}/*å®?48 BOX çš„å¤´*/
+	 .blt span{ padding-right: 10px; float: right;cursor:pointer;color:#AAAAAA;}
+	.blc {padding-left:15px;padding-right:15px; padding-top:10px}/*å®?48 BOX çš„ä¸­*/
+	.blc li { font-size:14px}
+	.blc li span{color:#AAAAAA; font-size:12px}
+	
+	.blb { height: 7px; }/*å®?48 BOX çš„è„š*/
+	  .t1{
+	  	width:648px
+	  }
+     .dq{float:left;margin-left:10px;}
+     .se{float:right; margin-right:10px;}
+
+	.bodyt{text-indent: 2em; font-size:14px;line-height:24px;text-align:justify;text-justify:inter-ideograph;word-wrap:break-word;word-break:break-all;
+	padding: 20px 20px;}
+	.fieldset{ padding-left:10px; padding-right:10px; text-align:left}
+	
+	
+	
+	
+	.boxlc{BORDER-TOP: #d3dbe6 1px solid; BACKGROUND: #fff; BORDER-RIGHT: #d3dbe6 1px solid; BORDER-LEFT: #d3dbe6 1px solid; BORDER-BOTTOM: #d3dbe6 1px solid; margin-bottom:10px 	}
+	.boxlt{BORDER-TOP: #003795 2px solid; }
+	/*ÓÒ²à¿ò*/
+.hd {	OVERFLOW: hidden; WIDTH: 100%; ZOOM: 1}
+.bd {	OVERFLOW: hidden; WIDTH: 100%; ZOOM: 1}
+
+
+	.bd  .fb{	height:27px;	padding-left:20px;}
+	.bd  .fb span{	float:left;	width:60px;	text-align:right;	padding-right:6px;	color:#888;}
+	.bd .fb img{	vertical-align:middle;	margin-left:5px;}
+	.bd .submit{	text-align:center;	margin-bottom:5px;}
+	.btn-1{	width:56px;	height:23px;	border:none;	background:url(images/pic.gif) no-repeat -360px -2px;	line-height:25px;	letter-spacing:1px;	cursor:pointer;	overflow:hidden;	color:#2F592E;}
+	.ipt-txt{	line-height:15px;	padding:4px 5px;	border-width:1px;	border-style:solid;	border-color:#666 #BBB #BBB #666;	font-size:12px;	margin-right:2px;}
+
+
+.boxs {MARGIN-BOTTOM: 8px; WIDTH: 250px}
+.boxs .hd {	BACKGROUND: url(images/icon1.png) no-repeat 0px -537px; WIDTH: 250px; LINE-HEIGHT: 29px; HEIGHT: 29px}
+.boxs .hd span {PADDING-LEFT: 12px; FONT-SIZE: 14px; COLOR: #1c2c58;	FONT-WEIGHT: normal; 	FLOAT: left; WIDTH: 94px;	}
+.boxs .hd span A:visited {	COLOR: #0b3b8c}
+
+.boxs .bd {	WIDTH: 248px; BORDER-RIGHT: #d9e4f3 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #d9e4f3 0px solid; PADDING-LEFT: 0px; BACKGROUND: #eef5ff; PADDING-BOTTOM: 10px; BORDER-LEFT: #d9e4f3 1px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #d9e4f3 1px solid}
+.boxs .bd LI {	COLOR: #0b3b8c; LINE-HEIGHT: 25px; padding-left:8px}
+.boxs .bd LI A:visited ,.boxs .bd LI A:link {	COLOR: #0b3b8c; TEXT-DECORATION: none;}
+.boxs .bd LI A:hover ,.boxs .bd LI A:active {	color: #f60; TEXT-DECORATION: underline}
+.boxs .innerBox {	MARGIN: 0px auto; WIDTH: 234px}
+
+
+
+.boxs td{BORDER-BOTTOM: 1px dotted #a6c1e3;font-size:14px;padding-left:5px}
+.boxs table{
+	MARGIN-left: 20px; 
+}
+.il{height:25px;color: #7468bd;}
+.down{width:100%;	MARGIN: 0px auto;
+	margin-top:10px 
+}
+
+
+
+	.list{	margin-left:10px;margin-right:10px;text-align:left}
+	.list li{margin-top:10px;color: #000; font-size: 16px; font-weight: bold; word-break:break-all;  }
+	.list a,.list a:visited,.list a:active { color: #000099; }
+	.list a:hover{ color: #ff5400;}
+	.listd{ text-indent: 2em;font-size: 12px; font-weight:100;border-bottom:1px solid #CCC ;margin-bottom:10px;   color: #767676; }
+	.list span{ padding-right:10px;color: #5e5e5e;font-size: 12px; font-weight:100;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	/*·ÖÒ³*/
+	.page{ font-family: Tahoma; font-family: simsun; margin: 3px; padding: 3px 18px 3px 3px; text-align:center }
+	.page a { background: #2c2c2c repeat-x left top; border: 1px solid #2c2c2c; color: #fff; margin-right: 2px; padding: 2px 5px; text-decoration: none; }
+	.page a:link,.page a:visited,.page a:active{ background:#747474 repeat-x left top; border: 1px solid #5e5e5e; color: #fff; }
+	.page a:hover { background:#d6d6d6 repeat-x left top; border: 1px solid #bdbbbb; color: #fff; }
+	.page span.current { background:#d6d6d6 repeat-x left top; border: 1px solid #bdbbbb; color: #fff; font-weight: bold; margin-right: 2px; padding: 2px 5px; }
+	.page span.disabled { border: 1px solid #f3f3f3; color: #ccc; margin-right: 2px; padding: 2px 5px; }
+
+		/*ÉÏÏÂÆª*/
+	.sx { padding: 0 0 0 35px;}
+	.sx  a:hover{ color: #ff0000; }
+	.sx a,.n_b a:visited{ color: #000099;}
+	.sx li{ text-align: left;}
+	

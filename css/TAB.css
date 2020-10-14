@@ -1,0 +1,133 @@
+﻿.navg {
+	border-top: 1px #F2F7FD solid;
+	border-bottom: 1px #8FBAF4 solid;
+}
+
+.navg .mainNavg {
+	height: 35px;
+	background-color: #E1E9F8;
+	background: url("/img_ext/tab/navg.gif") repeat-x top;
+}
+
+.navg .mainNavg UL {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navg .mainNavg UL LI {
+	float: left;	
+	background-color: #E1E9F8;
+	background: url(/img_ext/tab/tab_right.gif) no-repeat right top;
+	margin: 10px 3px;
+	height: 25px;
+}
+
+.navg .mainNavg UL LI A {
+	display: block;
+	height: 25px;
+	padding: 0 25px;
+	line-height: 24px;
+	background-color: #E1E9F8;
+	background: url(/img_ext/tab/tab_left.gif) no-repeat left top;
+	text-decoration: none;
+	float: left;
+	text-align:center;
+	color: #fff;
+	font-size:12px;
+}
+
+.navg .mainNavg UL LI A:hover {
+	color: #0000ff;
+}
+
+
+#attendance #attendanceNavg,
+#teach #teachNavg,
+#communication #communicationNavg,
+#system #systemNavg,
+#data #dataNavg {
+	background: url(/img_ext/tab/tab_right_on.gif) no-repeat right top;
+}
+
+#attendance #attendanceNavg A,
+#teach #teachNavg A,
+#communication #communicationNavg A,
+#system #systemNavg A,
+#data #dataNavg A {
+	background: url(/img_ext/tab/tab_left_on.gif) no-repeat left top;
+	color: #0000ff;
+}
+
+.navg .secondaryNavg {
+	height: 70px;
+	background: url("/img_ext/tab/bar.gif");
+}
+
+.navg UL {
+	position: absolute;
+	left: 0px;
+	margin: 0 5px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+}
+
+.navg  UL LI {
+	float: left;
+	padding: 0;
+	margin: 5px;
+}
+
+.navg .secondaryNavg UL LI A {
+	display: block;
+	float: left;
+	padding: 2px;
+	margin: 1px;
+	text-decoration: none;
+	color: #000;
+	background: url("/img_ext/tab/new.gif") no-repeat 50% 80%;
+	height: 50px;
+	line-height: 20px;
+}
+
+.navg .secondaryNavg UL LI A:hover {
+	border: 1px #8FBAF4 solid;
+}
+
+
+#leaveApprove #leaveApproveNavg A,
+#dailyAttendance #dailyAttendanceNavg A,
+#attendanceStatistics #attendanceStatisticsNavg A,
+#attendanceCollect #attendanceCollectNavg A,
+#homework #homeworkNavg A,
+#scoreImport #scoreImportNavg A,
+#scoreQuery #scoreQueryNavg A,
+#infoPublish #infoPublishNavg A,
+#infoQuery #infoQueryNavg A,
+#topicPublish #topicPublishNavg A,
+#topicQuery #topicQueryNavg A,
+#personal #personalNavg A,
+#school #schoolNavg A,
+#grade #gradeNavg A,
+#unit #unitNavg A,
+#teacher #teacherNavg A,
+#student #studentNavg A,
+#card #cardNavg A, 
+#calendar #calendarNavg A,
+#rule #ruleNavg A {
+	border: 1px solid #3C6EFF
+}
+.textbody{
+padding-left:20px;
+padding-top:20px;
+background-color: #E1E9F8;
+font-size:12px;}
+.textbody1{
+padding-left:20px;
+padding-top:10px;
+}
+body {
+	background-color:#E1E9F8;
+}
+

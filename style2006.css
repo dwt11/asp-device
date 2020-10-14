@@ -1,0 +1,41 @@
+a {text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #000000;text-decoration: none;} /* 未访问的链接 */
+a:visited {color: #000000;text-decoration: none;} /* 已访问的链接 */
+a:hover {color: #ff6600;text-decoration: none;} /* 鼠标在链接上 */ 
+a:active {color: #000000;text-decoration: none;} /* 点击激活链接 */
+
+body
+{
+	FONT-FAMILY: "宋体";
+	FONT-SIZE: 9pt;
+	text-decoration: none;
+	line-height: 150%;
+	background:#ffffff;
+	SCROLLBAR-FACE-COLOR: #2B73F1;
+	SCROLLBAR-HIGHLIGHT-COLOR: #0650D2;
+	SCROLLBAR-SHADOW-COLOR: #449AE8;
+	SCROLLBAR-3DLIGHT-COLOR: #449AE8;
+	SCROLLBAR-ARROW-COLOR: #02338A;
+	SCROLLBAR-TRACK-COLOR: #0650D2;
+	SCROLLBAR-DARKSHADOW-COLOR: #0650D2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+/* MAIN.asp页面最顶部显示当前面的标题 */
+.topbody {
+	BORDER-RIGHT: #cbcbcb 1px solid; BORDER-TOP: #cbcbcb 1px solid; background:#0650D2; color:#FFFFFF; MARGIN: 0px auto; BORDER-LEFT: #cbcbcb 1px solid; BORDER-BOTTOM: #cbcbcb 1px solid; HEIGHT: 30px
+}
+.topbody li{
+PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 7px; LIST-STYLE-TYPE: none
+}
+
+.tdbg{
+	BORDER-RIGHT: #cbcbcb 1px solid; BORDER-TOP: #cbcbcb 1px solid; MARGIN: 0px auto; BORDER-LEFT: #cbcbcb 1px solid; BORDER-BOTTOM: #cbcbcb 1px solid;
+	background:#f0f0f0;	 HEIGHT: 10px
+}
+.tdbg li{
+
+PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 7px; LIST-STYLE-TYPE: none
+}

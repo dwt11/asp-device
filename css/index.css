@@ -1,0 +1,446 @@
+
+a{text-decoration: none;}
+a:link,a:visited,a:active{color:#000}
+a:hover{color:#ff0000}
+
+/*顶部菜单连接着色*/
+.nav1{color:#000;font-weight: bold;font-size:14px;padding:6px 0px 2px;text-align:center;letter-spacing:-0.02em;.letter-spacing:-0.03em;_letter-spacing:-0.02em}
+
+.nav{font-size:14px;padding:6px 0px 2px;text-align:left;letter-spacing:-0.02em;.letter-spacing:-0.03em;_letter-spacing:-0.02em}
+.nav{color:#8e8e8e;font-weight: bold }
+.nav a:link,.nav a:visited{color:#fff;padding-left:20px}
+.nav a:hover,.nav a:active{color:#f60;padding-left:20px}
+
+
+
+
+
+
+
+
+
+
+
+/* 网站链接总的css定义:可定义内容为链接字体颜色、样式等 */
+ /*a{text-decoration: none;} 链接无下划线,有为underline */ 
+ /*a:link {color: #000000;} 未访问的链接 */
+/*a:visited {color: #333333;}  已访问的链接 */
+/* a:hover{color: #ae0927;} 鼠标在链接上 */ 
+ /* a:active {color: #0000ff;}点击激活链接 */
+
+
+/* 顶部频道文字链接的css定义－－将顶部频道文字链接与网站链接总的css定义分开，以后可以制作深底浅字的格式，如果要保持原来的设计样式，将此定义内容删除或定义成与网站链接总的css相同即可。调用代码为<a class='channel' ***>***</a>
+a.channel:link {color: #ffffff;}
+a.channel:visited {color: #ffffff;}
+a.channel:hover{color: #ffff00;}
+a.channel:active {color: #ffffff;} */
+/* 顶部当前频道文字链接的css定义－－调用代码为<a class='channel2' ***>***</a> 
+a.channel2:link {color: #ffff00;}
+a.channel2:visited {color: #ffff00;}
+a.channel2:hover{color: #ff6600;}
+a.channel2:active {color: #ffff00;}*/
+/* 底部版权信息文字链接的css定义－－与顶部频道文字链接定义的想法相同。可设置与顶部频道文字链接定义不同的文字颜色，网页内定义以预留。调用代码为<a class='bottom' ***>***</a>
+a.bottom:link {color: #ffffff;}
+a.bottom:visited {color: #ffffff;}
+a.bottom:hover{color: #ffff00;}
+a.bottom:active {color: #ffffff;} */
+/* 文章栏目标题文字链接的css定义－－可设置与顶部频道文字链接定义不同的文字颜色，网页内定义以预留。要相同可不设置。调用代码为<a class='class' ***>***</a> 
+a.class:link {color: #000000;}
+a.class:visited {color: #000000;}
+a.class:hover{color: #ff0000;}
+a.class:active {color: #000000;}*/
+
+/* body的css定义:对应css中“body”，可定义内容为网页字体颜色、背景、浏览器边框等 */
+body
+{
+font-size: 9pt;background:url(/images2006/bg_all.gif);
+background-position:center;
+text-decoration: none;
+scrollbar-face-color: #f6f6f6;
+scrollbar-highlight-color: #ffffff; scrollbar-shadow-color: #cccccc; scrollbar-3dlight-color: #cccccc; scrollbar-arrow-color: #330000; scrollbar-track-color: #f6f6f6; scrollbar-darkshadow-color: #ffffff;
+}
+/* 单元格的css定义:对应css中的“td”，这里为总的表格定义，为一般表格的的单元格风格设置，可定义内容为背景、字体颜色、样式等 */
+td
+{
+font-family:宋体;font-size: 9pt;line-height: 150%; 
+}
+/* 文本框的css定义:对应css中的“input”，这里为文本框的风格设置，可定义内容为背景、字体、颜色、边框等 */
+input
+{
+background-color: #ffffff; 
+border-bottom: #666666 1px solid;
+border-left: #666666 1px solid;
+border-right: #666666 1px solid;
+border-top: #666666 1px solid;
+color: #666666;
+height: 18px;
+border-color: #666666 #666666 #666666 #666666; font-size: 9pt
+}
+/* 按钮的css定义:对应css中的“button”，这里为按钮的风格设置，可定义内容为背景、字体、颜色、边框等 */
+button
+{
+font-size: 9pt;height: 20px;
+}
+/* 下拉列表框的css定义:对应css中的“select”，这里为下拉列表框的风格设置，可定义内容为背景、字体、颜色、边框等 */
+select
+{
+font-size: 9pt;height: 20px;
+}
+/* 顶部用户登录文字链接的css定义 */
+.top_userlogin
+{
+color: #037fa8;
+}
+
+/* ==频道通用表格css定义开始== */
+.channel_border /* 灰色表格边框背景颜色定义(760) */
+{
+border: 1px solid #cccccc;
+}
+.channel_title /* 标题背景颜色定义(760) */
+{
+background: #cccccc;color: #037fa8;height: 27;text-align: center;font-weight:bold;
+}
+.channel_tdbg /* 表格背景颜色定义(760) */
+{
+background:#fafafa;line-height: 120%;
+}
+.channel_pager /* 分页表格背景颜色定义(760) */
+{
+background:#fafafa;line-height: 120%;
+}
+
+　　/* --评论显示页的css定义开始-- */
+.comment_border /* 蓝色表格边框背景颜色定义(760) */
+{
+border: 1px solid #449ae8;
+}
+.comment_title /* 标题背景颜色定义(760) */
+{
+background:#449ae8;color: #ffffff;font-weight: normal;height: 25;
+}
+.comment_tdbg1 /* 表格背景颜色定义(760) */
+{
+background:#ffffff;line-height: 120%;
+}
+.comment_tdbg2 /* 留言显示1px表格背景颜色定义 */
+{
+background:#fafafa;
+}
+　　/* --评论显示页的css定义结束-- */
+/* ==频道通用表格css定义结束== */ 
+
+/* ==简短标题文字的css定义开始== */
+/* [图文]简短标题文字的css定义 */
+.s_headline1
+{
+color: blue;
+}
+/* [组图]简短标题文字的css定义 */
+.s_headline2
+{
+color: #ff6600;
+}
+/* [推荐]简短标题文字的css定义 */
+.s_headline3
+{
+color: green;
+}
+/* [注意]简短标题文字的css定义 */
+.s_headline4
+{
+color: red;
+}
+/* ==简短标题文字的css定义开始== */
+
+/* ==top.asp中的css定义开始== */
+.top_tdbgall /* 顶部表格总背景颜色定义 */
+{
+width: 760;background:#ffffff;
+}
+.top_top
+{
+background:#0089f7;height: 2;
+}
+.top_channel /* 频道表格背景、文字颜色定义 */
+{
+background:#0089f7;color:#3ab1f5!important;text-align: right;border-top: 1px solid #ffffff;border-bottom: 1px solid #ffffff;
+}
+.top_announce /* 公告表格背景、文字颜色定义 */
+{
+background:url(/images2006/top_nav_menu.gif);color: #0560a6;height: 30;
+}
+.top_nav_menu /* 导航栏表格背景、文字颜色定义 */
+{
+background:url(/images2006/top_nav_menu.gif);color: #0560a6;height: 30;
+}
+.top_path /* 您现在的位置表格背景、文字颜色定义 */
+{
+width: 760;background:#ffffff;height: 30;
+}
+.top_userlogin /* 顶部用户登录文字链接的css定义 */
+{
+color: #037fa8
+}
+/* ==top.asp中的css定义结束== */
+
+/* ==网页中部中的css定义开始== */
+.center_tdbgall /* 中部表格总背景颜色定义 */
+{
+background:#ffffff;
+}
+　　/* --网页中部左栏的css定义开始-- */
+.left_tdbgall /* 左栏表格总背景颜色定义 */
+{
+background:#ffffff;
+}
+.left_title /* 左栏标题表格背景、文字颜色定义 */
+{
+background:url(/images2006/left_title.gif);font-weight:bold;color: ffffff;height: 28;width:180;padding-left:40;text-align: left;
+}
+.left_tdbg1 /* 左栏内容表格背景、文字颜色定义 */
+{
+background:url(/images2006/left_tdbg1.gif);line-height: 150%;padding-left:5;padding-right:8;
+}
+.left_tdbg2 /* 左栏底部表格背景、文字颜色定义 */
+{
+background:url(/images2006/left_tdbg2.gif);height: 10;
+}
+.right_title /* 左栏标题表格背景、文字颜色定义 */
+{
+background:url(/images2006/right_title.gif);font-weight:bold;color: ffffff;height: 28;width:180;padding-left:40;text-align: left;
+}
+　　/* --网页中部左栏的css定义结束-- */
+　　/* --网页中部中栏的css定义开始-- */
+.main_tdbgall /* 中栏表格总背景颜色定义 */
+{
+width: 572;background:#ffffff;
+}
+.main_shadow /* 中栏内容间隔表格背景颜色定义(575) */
+{
+height: 4;
+}
+.main_announce /* 中栏公告表格背景、文字颜色定义 */
+{
+color: 037fa8;height: 25;background:#f9f9f9;border: 1px solid #d2d3d9;
+}
+.main_search /* 中栏搜索表格背景、文字颜色定义 */
+{
+color: 037fa8;height: 25;border: 1px solid #d2d3d9;background:#f9f9f9;
+}
+.main_top /* 中栏最新推荐表格背景颜色定义 */
+{
+background:url(/images2006/main_top.gif);height: 187;
+}
+.main_title_760i /* 网站首页中栏标题表格背景、文字颜色定义(760) */
+{
+color: ffffff;background:url(/images2006/main_title_760i.gif);border-top: 1px solid #d2d3d9;border-right: 1px solid #d2d3d9;border-left: 1px solid #d2d3d9;text-align: left;padding-left:40;height: 29;
+}
+.main_tdbg_760i /* 网站首页中栏内容表格背景、文字颜色定义(760) */
+{
+border: 1px solid #d2d3d9;line-height: 150%;text-align: left;padding-left:5;padding-right:5;
+}
+.main_title_575 /* 中栏标题表格背景、文字颜色定义(575) */
+{
+color: ffffff;background:url(/images2006/main_title_575.gif);border-top: 1px solid #d2d3d9;border-right: 1px solid #d2d3d9;border-left: 1px solid #d2d3d9;text-align: left;padding-left:40;height: 29;
+}
+.main_tdbg_575 /* 中栏内容表格背景、文字颜色定义(575) */
+{
+border: 1px solid #d2d3d9;line-height: 150%;text-align: left;padding-left:5;padding-right:5;
+}
+.main_title_282i /* 栏目文章列表标题表格背景、文字颜色定义(282) */
+{
+background:url(/images2006/main_title_760.gif);color: ffffff;height: 29;border-top: 1px solid #d2d3d9;border-left: 1px solid #d2d3d9;border-right: 1px solid #d2d3d9;padding-left:40;
+}
+
+.main_title_1i /* 栏目文章列表标题表格背景、文字颜色定义(282) */
+{
+background:url(/images2006/topp.gif);color: 000000;height: 30;border-top: 1px solid #d2d3d9;border-left: 1px solid #d2d3d9;border-right: 1px solid #d2d3d9;padding-left:40;
+}
+
+
+
+
+.main_tdbg_282i /* 栏目文章列表内容表格背景、文字颜色定义(282) */
+{
+border: 1px solid #d2d3d9;line-height: 150%;text-align: left;padding-left:5;padding-right:5;
+}
+.main_title_282 /* 栏目文章列表标题表格背景、文字颜色定义(282) */
+{
+background:url(/images2006/main_title_282.gif);color: ffffff;height: 29;border-top: 1px solid #d2d3d9;border-left: 1px solid #d2d3d9;border-right: 1px solid #d2d3d9;padding-left:40;
+}
+.main_tdbg_282 /* 栏目文章列表内容表格背景、文字颜色定义(282) */
+{
+border: 1px solid #d2d3d9;line-height: 150%;text-align: left;padding-left:5;padding-right:5;
+}
+.listbg /* --栏目文章列表内容间隔颜色的定义1-- */
+{
+background:#ffffff;
+}
+.listbg2 /* --栏目文章列表内容间隔颜色的定义2-- */
+{
+background:#f7f7f7;
+}
+　　/* --网页中部中栏的css定义结束-- */
+　　/* --文章显示页的css定义开始-- */
+
+.main_articletitle /* 主标题文字颜色定义 */
+{
+color: ff0000;font-weight:bold;font-size: 18;line-height: 150%;
+}
+.main_articlesubheading /* 副标题文字颜色定义 */
+{
+color: 037fa8;font-weight:bold;line-height: 150%;
+}
+.main_title_760 /* 标题导航表格背景、文字颜色定义(760) */
+{
+background:url(/images2006/main_title_760.gif);border: 1px solid #d2d3d9;height: 28;color: ffffff;
+}
+.main_tdbg_760 /* 内容表格背景、文字颜色定义(760) */
+{
+border: 1px solid #d2d3d9;padding: 8;line-height: normal;
+}
+.article_tdbgall /* 责编等表格背景、文字颜色定义(760) */
+{
+background:#f5f5f5;
+}
+
+　　/* --文章显示页的css定义结束-- */
+　　/* --留言频道css定义开始-- */
+/* 留言栏目标题文字链接的css定义－－调用代码为<a class='guest' ***>***</a> */
+a.guest:link {color: #ffffff;}
+a.guest:visited {color: #ffffff;}
+a.guest:hover{color: #ff0000;}
+a.guest:active {color: #ffffff;}
+
+.guest_title_760 /* 标题导航表格背景、文字颜色定义(760) */
+{
+background:url(/images2006/main_title_760.gif);border: 1px solid #d2d3d9;padding-left:5;height: 29;color: ffffff;
+}
+.guest_tdbg_760 /* 内容表格背景、文字颜色定义(760) */
+{
+border: 1px solid #d2d3d9;padding: 8;
+}
+.guest_border /* 蓝色表格边框背景颜色定义(760) */
+{
+border: 1px solid #449ae8;
+}
+.guest_title /* 标题背景颜色定义(760) */
+{
+background:#449ae8;color: #ffffff;font-weight: normal;height: 25;
+}
+.guest_tdbg /* 表格背景颜色定义(760) */
+{
+background:#fafafa;line-height: 120%;
+}
+.guest_tdbg_1px /* 留言显示1px表格背景颜色定义 */
+{
+background:#d2d3d9;
+}
+.guest_border2 /* 回复表格虚线边框背景颜色定义(760) */
+{
+border: 1px dashed #97d2df;background:#e8f5f8;color: #006633;
+}
+.guest_replyadmin /* 管理员回复文字背景颜色定义(760) */
+{
+color: #ff0000;
+}
+.guest_replyuser /* 用户回复文字背景颜色定义(760) */
+{
+color: #449ae8;
+}
+　　/* --留言频道css定义结束-- */
+　　/* --商城的css定义开始-- */
+.shop_border /* 蓝色表格边框背景颜色定义(760) */
+{
+border: 1px solid #449ae8;
+}
+.shop_border3 /* 灰色表格边框背景颜色定义(760) */
+{
+border: 1px solid #cccccc;
+}
+.shop_title /* 标题背景颜色定义(760) */
+{
+background:url(/images2006/main_title_760.gif);color: #ffffff;font-weight: normal;height: 27;
+}
+.shop_tdbg /* 表格背景颜色定义(760) */
+{
+background:#fafafa;line-height: 120%;
+}
+.shop_tdbg2 /* 表格背景颜色定义2 */
+{
+background:#f5f5f5;line-height: 120%;
+}
+.shop_tdbg3 /* 表格背景颜色定义3 */
+{
+background:#ffffff;line-height: 120%;
+}
+.shop_tdbg4 /* 表格背景颜色定义4 */
+{
+background:#e1f4ee;line-height: 120%;
+}
+
+　　/* --商城的css定义结束-- */
+/* ==网页中部中的css定义结束== */
+
+/* ==bottom.asp中的css定义开始== */
+.bottom_tdbgall /* 底部表格总背景颜色定义 */
+{
+width: 760;background:#ffffff;
+}
+.bottom_adminlogo /* 管理信息表格背景、文字颜色定义 */
+{
+background:#0089f7;color:#ffffff;
+}
+.bottom_copyright /* 版权信息表格背景、文字颜色定义 */
+{
+background:#ffffff;color:#000000;
+}
+/* ==bottom.asp中的css定义结束== */
+
+/* ==自选风格中的css定义结束== */
+.menu
+{
+background-color: #cccccc;width:97%;border: 1px;
+}
+.menubody
+{
+background-color: #ffffff;
+}
+/* ==自选风格中的css定义结束== */
+.channel_font /* 搜索等特殊文字颜色定义 */
+{
+color: red;
+}
+/* --评论显示页的css定义开始-- */ 
+.guest_font /* 隐藏、用户等特殊文字颜色定义 */
+{
+color: green;
+}
+/* --评论显示页css定义结束-- */
+/* --留言频道css定义开始-- */
+/* 留言栏目标题文字链接的css定义－－调用代码为<a class='guest' ***>***</a> */
+a.guest:link {color: #000000;}
+a.guest:visited {color: #000000;}
+a.guest:hover{color: #ff6600;}
+a.guest:active {color: #000000;} 
+
+/* 站内链接文字颜色定义 */
+a.channel_keylink{text-decoration: underline;}
+a.channel_keylink:link {color: blue;}
+a.channel_keylink:visited {color: blue;}
+a.channel_keylink:hover{color: #ff0000;}
+a.channel_keylink:active {color: blue;}
+
+/* 081106新增用于NEW的着色 */
+
+.classnew {
+	font-family: "宋体";
+	font-size: 12px;
+	font-style: oblique;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FF0000;
+	text-decoration: blink;
+	text-transform: capitalize;
+}
