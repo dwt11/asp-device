@@ -63,14 +63,13 @@
  
  > 由于系统的开放性，信息系统的安全就成为一个非常大的隐患。信息系统的安全控制包括两个方面：认证和授权。只有经过认证的用户才能登陆系统，而且不同的角色其授予的权力是不同的。
  
- 
-## 部分截图
+ ## 部分截图
 
 
 <img src="https://github.com/dwt11/asp-device/blob/main/upload/1.jpg"/>
 <img src="https://github.com/dwt11/asp-device/blob/main/upload/2.jpg"/>
 <img src="https://github.com/dwt11/asp-device/blob/main/upload/3.jpg"/>
-<img src="https://github.com/dwt11/asp-device/blob/main/upload/4.jpg"/>
+<img src="https://github.com/dwt11/asp-device/blob/main/upload/4.png"/>
 <img src="https://github.com/dwt11/asp-device/blob/main/upload/5.jpg"/>
  
  
